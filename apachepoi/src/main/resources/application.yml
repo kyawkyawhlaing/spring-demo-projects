@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: "apachepoi"
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    classDriverName: org.mysql.cj.Driver
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create-drop
+#    show-sql: true
+
